@@ -1,0 +1,93 @@
+/* header */
+@import url(./header.css);
+@import url(./menu.css);
+@import url(./top.css);
+@import url(./line.css);
+@import url(./footer.css);
+
+body{
+	font-family: 'Cute Font', cursive;
+	font-size: 18px;
+	background-color:#f6f5f0;
+
+}
+span{
+	display: inline-block;
+}
+
+	
+.english{
+	font-family: 'Edu SA Beginner', cursive;
+}
+img{
+	display: block;
+}
+.container {
+	display:grid;
+	
+	height:100vh;
+	grid-template-columns: 300px 1fr 300px;
+	grid-template-rows: 150px 40px 20px 150px 1fr 150px 20px 50px;
+	grid-template-areas: 'header header header'
+	  					 'line line line'
+						 'line2 line2 line2'
+						 'menu main top'
+						 'menu main aside'
+						 'menu main bottom'
+						 'line3 line3 line3'
+						 'footer footer footer';
+	
+}
+.box{
+	background-color: #f6f5f0;
+	border: 1px solid black;
+}
+
+.header{ 
+	grid-area: header;
+	position: relative;
+}
+
+.line{
+	grid-area: line;
+	border-bottom: 5px solid black;
+}
+.line2{
+	grid-area: line2;
+	background-color: #f6f5f0;
+	border-bottom: none;
+}
+
+.line3{
+	grid-area: line3;
+	background-color: #f6f5f0;
+	border-bottom: none;
+}
+
+.menu{
+	grid-area: menu;
+	border-top: none;
+	border-bottom: none;
+}
+.main{
+	grid-area: main;
+	border-top: none;
+	border-bottom: none;
+	min-height: 500px;
+	min-width: 400px;
+}
+.top{
+	grid-area: top;
+	border-top: none;
+}
+.aside{
+	grid-area: aside;
+}
+.bottom{
+	grid-area: bottom;
+	border-bottom: none;
+}
+.footer{
+	grid-area: footer;
+	border-bottom: none;
+}

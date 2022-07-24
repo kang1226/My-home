@@ -1,0 +1,53 @@
+img.mainIcon{
+	height: 100px;
+	position:absolute;
+	top: 0;
+	bottom: 0;
+  left:75px;
+	margin: auto;
+}
+img.mainIcon:hover {
+  filter: grayscale(100%);
+}
+
+.logoBox{
+  position: absolute;
+  background-color: #f6f5f0;
+  height:110px;
+  width: 250px;
+  top: 0;
+	bottom: 0;
+	left:25px;
+	margin: auto;
+  border: 2px solid black ;
+}
+
+img.mainhome{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  width: 40%;
+  height: 90px;
+  overflow: hidden;
+  }
+
+.logoBox2{
+  position: absolute;
+  background-color: #f6f5f0;
+  height:110px;
+  width: 250px;
+  top: 0;
+	bottom: 0;
+  right:25px;
+	margin: auto;
+  border: 2px solid black ;
+}
+p.support{
+  font-size: 3rem;
+  line-height: 110px;
+  text-align: center;
+}
+p.support:hover{
+  color: #777;
+}

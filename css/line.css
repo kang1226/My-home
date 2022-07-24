@@ -1,0 +1,13 @@
+div.line{
+    display: flex;
+    font-size: 25px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+div.life:nth-child(1){
+    margin-left: 125px;
+}
+div.life:nth-child(3){
+    margin-right: 125px;
+}
