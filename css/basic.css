@@ -24,7 +24,7 @@ img{
 	display:grid;
 	
 	height:100vh;
-	grid-template-columns: 300px 1fr 300px;
+	grid-template-columns: 250px 1fr 250px;
 	grid-template-rows: 150px 40px 20px 150px 1fr 150px 20px 50px;
 	grid-template-areas: 'header header header'
 	  					 'line line line'
@@ -44,11 +44,16 @@ img{
 .header{ 
 	grid-area: header;
 	position: relative;
+	border-top: none;
+	border-right: none;
+	border-left: none;
 }
 
 .line{
 	grid-area: line;
 	border-bottom: 5px solid black;
+	border-right: none;
+	border-left: none;
 }
 .line2{
 	grid-area: line2;
@@ -64,8 +69,9 @@ img{
 
 .menu{
 	grid-area: menu;
-	border-top: none;
 	border-bottom: none;
+	border-top: none;
+	border-left: none;
 }
 .main{
 	grid-area: main;
@@ -77,15 +83,20 @@ img{
 .top{
 	grid-area: top;
 	border-top: none;
+	border-right: none;
 }
 .aside{
 	grid-area: aside;
+	border-right: none;
 }
 .bottom{
 	grid-area: bottom;
 	border-bottom: none;
+	border-right: none;
 }
 .footer{
 	grid-area: footer;
 	border-bottom: none;
+	border-right: none;
+	border-left: none;
 }

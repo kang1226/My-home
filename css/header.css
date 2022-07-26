@@ -3,7 +3,7 @@ img.mainIcon{
 	position:absolute;
 	top: 0;
 	bottom: 0;
-  left:75px;
+  left:50px;
 	margin: auto;
 }
 img.mainIcon:hover {
@@ -14,7 +14,7 @@ img.mainIcon:hover {
   position: absolute;
   background-color: #f6f5f0;
   height:110px;
-  width: 250px;
+  width: 200px;
   top: 0;
 	bottom: 0;
 	left:25px;
@@ -36,7 +36,7 @@ img.mainhome{
   position: absolute;
   background-color: #f6f5f0;
   height:110px;
-  width: 250px;
+  width: 200px;
   top: 0;
 	bottom: 0;
   right:25px;
@@ -44,7 +44,7 @@ img.mainhome{
   border: 2px solid black ;
 }
 p.support{
-  font-size: 3rem;
+  font-size: 2.5rem;
   line-height: 110px;
   text-align: center;
 }
